@@ -1,0 +1,25 @@
+a {
+    text-decoration:none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 200;
+    transform: all .5s ease-in-out;
+}
+.active{
+    color: #046EB6;
+}
+a:hover {
+    text-decoration: none;
+    color:  var(--highlightText);
+    transform: all .5s ease-in-out ;
+}
+.main-body {
+    background: #D8E2EF;
+    padding: 8% 0;
+}
+@media screen and (min-width:768px)  and (max-width:1028px){
+    .main-body .col-md-5 {
+        flex: 0 0 auto;
+        width: 60%;
+    }
+ }
